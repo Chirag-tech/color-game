@@ -1,0 +1,62 @@
+body
+{
+    background-color:#232323;
+    color: white;
+    margin: 0px 0px;
+    
+    
+}
+#square{
+    background: purple;
+    width:30%;
+    padding-bottom:30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+#container
+{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+h1{
+    background-color: steelblue;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: inherit;
+    margin: 0px;
+    
+}
+button{
+    border: none;
+    background:none;
+    height: 100%;
+    font-weight:700;
+    color:steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+}
+#strip
+{
+    background-color: white;
+    margin-top: 0%;
+    color: black;
+    text-align: center;
+    margin-top:0px;
+    
+}
+button:hover{
+    background-color:#232323;
+    color: steelblue;
+}
+.selected{
+    background-color:steelblue;
+    color:white;
+}
+
+#stripDisplay{
+    display: inline-block;
+    width:30%;
+}
